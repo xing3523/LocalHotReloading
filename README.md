@@ -2,7 +2,7 @@
 
 
 ## introduce
-HotReloading iOS framework for CocoaPods.
+HotReloading iOS framework for CocoaPods.  
 [HotReloading](https://github.com/johnno1962/HotReloading) is a very useful debugging project tool. This project packages it as a Framework for easy use through CocoaPods
 
 ## Installation
