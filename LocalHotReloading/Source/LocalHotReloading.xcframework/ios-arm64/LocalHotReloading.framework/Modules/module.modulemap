@@ -1,0 +1,6 @@
+framework module LocalHotReloading {
+  umbrella header "LocalHotReloading.h"
+  export *
+
+  module * { export * }
+}

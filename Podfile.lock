@@ -1,0 +1,16 @@
+PODS:
+  - LocalHotReloading (1.0.0)
+
+DEPENDENCIES:
+  - LocalHotReloading (from `./`)
+
+EXTERNAL SOURCES:
+  LocalHotReloading:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  LocalHotReloading: 5a32a8512e7b32e06cba86a466ffc6f614898992
+
+PODFILE CHECKSUM: 86c1f666f7496b08a65ca82081dd3789085e240d
+
+COCOAPODS: 1.14.0
