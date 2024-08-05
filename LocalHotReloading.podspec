@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "xing" => "xinxof@foxmail.com" }
   s.platform     = :ios, '12.0'
-  s.source       = { :git => "https://github.com/xing3523/LocalHotReloading.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/xing3523/LocalHotReloading.git", :tag => s.version.to_s }
   s.vendored_frameworks = [
     'LocalHotReloading/Source/LocalHotReloading.xcframework',
     'LocalHotReloading/Source/SwiftTraceD.xcframework'
