@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "LocalHotReloading"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "HotReloading framework for pod install"
   s.description  = <<-DESC
   HotReloading framework for pod install, You can use this when you are not using SPM

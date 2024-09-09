@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		211A4C982C5B7D2F008297A6 /* LocalHotReloading.h in Headers */ = {isa = PBXBuildFile; fileRef = 211A4C972C5B7D2F008297A6 /* LocalHotReloading.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		211A4CA02C5B7D88008297A6 /* HotReloading in Frameworks */ = {isa = PBXBuildFile; productRef = 211A4C9F2C5B7D88008297A6 /* HotReloading */; };
+		2156A01F2C8EB93C001DA57D /* RemoteCapture in Frameworks */ = {isa = PBXBuildFile; productRef = 2156A01E2C8EB93C001DA57D /* RemoteCapture */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				211A4CA02C5B7D88008297A6 /* HotReloading in Frameworks */,
+				2156A01F2C8EB93C001DA57D /* RemoteCapture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +84,7 @@
 			name = LocalHotReloading;
 			packageProductDependencies = (
 				211A4C9F2C5B7D88008297A6 /* HotReloading */,
+				2156A01E2C8EB93C001DA57D /* RemoteCapture */,
 			);
 			productName = LocalHotReloading;
 			productReference = 211A4C942C5B7D2F008297A6 /* LocalHotReloading.framework */;
@@ -112,6 +115,7 @@
 			mainGroup = 211A4C8A2C5B7D2F008297A6;
 			packageReferences = (
 				211A4C9E2C5B7D88008297A6 /* XCRemoteSwiftPackageReference "HotReloading" */,
+				2156A01D2C8EB93C001DA57D /* XCRemoteSwiftPackageReference "Remote" */,
 			);
 			productRefGroup = 211A4C952C5B7D2F008297A6 /* Products */;
 			projectDirPath = "";
@@ -372,6 +376,14 @@
 				minimumVersion = 5.0.6;
 			};
 		};
+		2156A01D2C8EB93C001DA57D /* XCRemoteSwiftPackageReference "Remote" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/johnno1962/Remote";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.5;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -379,6 +391,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 211A4C9E2C5B7D88008297A6 /* XCRemoteSwiftPackageReference "HotReloading" */;
 			productName = HotReloading;
+		};
+		2156A01E2C8EB93C001DA57D /* RemoteCapture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2156A01D2C8EB93C001DA57D /* XCRemoteSwiftPackageReference "Remote" */;
+			productName = RemoteCapture;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

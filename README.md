@@ -11,9 +11,9 @@ HotReloading iOS framework for CocoaPods.
 3. InjectionIII Installation and more information https://github.com/johnno1962/InjectionIII
 
 ## Version info
-LocalHotReloading v1.0.0
+LocalHotReloading v1.0.1
 The Framework reference code versions are as follows
-- HotReloading v5.0.6
+- HotReloading v5.0.7
 - SwiftTrace v8.6.1
 - SwiftRegex5 v6.1.2
 - XprobePlugin v2.9.9
